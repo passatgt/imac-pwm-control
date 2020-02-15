@@ -1,0 +1,6 @@
+framework module Pods_iMac_PWM_Control {
+  umbrella header "Pods-iMac PWM Control-umbrella.h"
+
+  export *
+  module * { export * }
+}

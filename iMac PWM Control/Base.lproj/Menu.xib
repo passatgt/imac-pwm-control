@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Settings" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="cIg-yb-Kui">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" fullSizeContentView="YES"/>
+            <rect key="contentRect" x="839" y="394" width="409" height="237"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <view key="contentView" id="yHP-FD-iwl">
+                <rect key="frame" x="0.0" y="0.0" width="409" height="237"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EhD-hy-x0O">
+                        <rect key="frame" x="18" y="104" width="122" height="16"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="NodeRed's address" id="gvk-sU-UFj">
+                            <font key="font" usesAppearanceFont="YES"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lXb-j6-VaJ">
+                        <rect key="frame" x="18" y="128" width="373" height="77"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" id="dVA-RY-Y5d">
+                            <font key="font" usesAppearanceFont="YES"/>
+                            <string key="title">Change the screen's brightness using Node-RED running on a Raspberry PI by adjusting PWM. Leave the field empty to simulate brightness change by changing the screen's gamma values.</string>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NuR-Jz-x6h">
+                        <rect key="frame" x="20" y="75" width="369" height="21"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="border" placeholderString="http://192.168.0.1:1880" drawsBackground="YES" id="nbN-ZD-jNz">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vy1-T2-PmK">
+                        <rect key="frame" x="14" y="14" width="66" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="Quit" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="88q-vB-enL">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="QuitApp:" target="Voe-Tx-rLC" id="i35-rn-xs2"/>
+                        </connections>
+                    </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xy7-8s-rh6">
+                        <rect key="frame" x="321" y="24" width="70" height="16"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="Version 1.0" id="2lG-4U-DBL">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="-130.5" y="-98.5"/>
+        </window>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="iMac_PWM_Control" customModuleProvider="target">
+            <connections>
+                <outlet property="BrightnessSlider" destination="Ddf-67-f4P" id="zYR-JG-tId"/>
+                <outlet property="QuitButton" destination="Vy1-T2-PmK" id="5TX-EV-aG5"/>
+                <outlet property="RaspberryPiAddressField" destination="NuR-Jz-x6h" id="vkw-9n-eeM"/>
+                <outlet property="SettingsButton" destination="RtB-iw-uIs" id="PP9-h1-lz6"/>
+                <outlet property="SettingsWindow" destination="cIg-yb-Kui" id="w4G-Mi-gbS"/>
+                <outlet property="menuView" destination="3R9-22-a7D" id="JbB-ih-Y66"/>
+            </connections>
+        </customObject>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu id="3R9-22-a7D">
+            <point key="canvasLocation" x="-95" y="175"/>
+        </menu>
+        <button verticalHuggingPriority="750" id="RtB-iw-uIs">
+            <rect key="frame" x="0.0" y="0.0" width="44" height="42"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <gestureRecognizers>
+                <clickGestureRecognizer delaysPrimaryMouseButtonEvents="YES" numberOfClicksRequired="1" id="8Gk-nD-0ey">
+                    <connections>
+                        <action selector="openSettings:" target="Voe-Tx-rLC" id="5lu-1A-7Xj"/>
+                    </connections>
+                </clickGestureRecognizer>
+            </gestureRecognizers>
+            <buttonCell key="cell" type="bevel" bezelStyle="circular" image="NSActionTemplate" imagePosition="only" inset="2" id="G9C-5Z-WqH">
+                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                <font key="font" metaFont="system"/>
+            </buttonCell>
+            <point key="canvasLocation" x="-482" y="-1"/>
+        </button>
+        <slider horizontalHuggingPriority="750" id="Ddf-67-f4P">
+            <rect key="frame" x="0.0" y="0.0" width="23" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <sliderCell key="cell" continuous="YES" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="right" sliderType="linear" id="KZj-zw-nSh"/>
+            <point key="canvasLocation" x="-481" y="-149"/>
+        </slider>
+    </objects>
+    <resources>
+        <image name="NSActionTemplate" width="14" height="14"/>
+    </resources>
+</document>

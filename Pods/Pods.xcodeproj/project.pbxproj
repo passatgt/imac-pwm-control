@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B3DA109302B9B85320E7B48A560CFF4 /* MediaKeyTap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A3BB3FE22FEE73277BDA15FF82BC99 /* MediaKeyTap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ACBB304B4AFA8DB6F98F231D43951D8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D34711BF95CF741FCDDAF72EC06D93 /* Extensions.swift */; };
+		3009F486BA71E6FAB21E0970C669FAB9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA53ABD68332B23FE95DA70FF27B5C1 /* Cocoa.framework */; };
+		3673744732175BCB36A0CA905CBFF44C /* MediaKeyTapInternals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5B413EA53B8C1199933E3502ACC53 /* MediaKeyTapInternals.swift */; };
+		458599ED2F0D4D3369717F91645CD2FC /* MediaKeyTap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C0C448A44C5D5321F9EC3A300E0CBD /* MediaKeyTap-dummy.m */; };
+		4DC0E16BEA2843B0F2EBE17BC09DD871 /* Pods-iMac PWM Control-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A249A92C052E8C9A8282437ED784B1ED /* Pods-iMac PWM Control-dummy.m */; };
+		58341A1124B0B8A90C9084E364EF0593 /* NSEventExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A7131E01C662E445DB7D54A2AAA074 /* NSEventExtensions.swift */; };
+		630CC1DA9C9D2C598876B5653DC65DCE /* MediaKeyTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5087F8C67ABA1F28FEEF809FDB590B /* MediaKeyTap.swift */; };
+		6DB605F846B3280198177CFEE2E26C19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FA587E125D89A44E96573081BD19E5 /* CoreGraphics.framework */; };
+		B4573F04F11634093A20D713C8686119 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA53ABD68332B23FE95DA70FF27B5C1 /* Cocoa.framework */; };
+		C6143E1814C23147600AF7FDD761ED38 /* MediaApplicationWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193D9FD13362498AC0BFADE2FB1F368 /* MediaApplicationWatcher.swift */; };
+		CE242DCEF88DB9FDA959A6F98A6F5832 /* Pods-iMac PWM Control-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8173B68E721B799FE0A0207C74A3953D /* Pods-iMac PWM Control-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		541DAF76A366DE3648E52879323B6154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F681C818218C8521A461769EA284D3EF;
+			remoteInfo = MediaKeyTap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C5087F8C67ABA1F28FEEF809FDB590B /* MediaKeyTap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaKeyTap.swift; path = MediaKeyTap/MediaKeyTap.swift; sourceTree = "<group>"; };
+		1226701C47BCC1B8C028175D61F765DD /* MediaKeyTap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MediaKeyTap.framework; path = MediaKeyTap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D34711BF95CF741FCDDAF72EC06D93 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = MediaKeyTap/Extensions.swift; sourceTree = "<group>"; };
+		1D009864B9D089CE5C12B4AB6053373F /* Pods-iMac PWM Control.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iMac PWM Control.debug.xcconfig"; sourceTree = "<group>"; };
+		1EA6838BF1ABB6CEF41F27CD303D2328 /* Pods-iMac PWM Control-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iMac PWM Control-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2AA5B413EA53B8C1199933E3502ACC53 /* MediaKeyTapInternals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaKeyTapInternals.swift; path = MediaKeyTap/MediaKeyTapInternals.swift; sourceTree = "<group>"; };
+		3BE078FEE7781A1DCE8B58DD07E8C9FC /* Pods-iMac PWM Control.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iMac PWM Control.modulemap"; sourceTree = "<group>"; };
+		4BA53ABD68332B23FE95DA70FF27B5C1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		50609D004C1743739FE4188DE5E863F3 /* MediaKeyTap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MediaKeyTap.xcconfig; sourceTree = "<group>"; };
+		5369F0E32B7C1EA8AFBAFA82B1607468 /* Pods-iMac PWM Control-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iMac PWM Control-frameworks.sh"; sourceTree = "<group>"; };
+		5B8D82B9038B453BCBE1AB70B1402D14 /* Pods-iMac PWM Control-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iMac PWM Control-Info.plist"; sourceTree = "<group>"; };
+		6193D9FD13362498AC0BFADE2FB1F368 /* MediaApplicationWatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaApplicationWatcher.swift; path = MediaKeyTap/MediaApplicationWatcher.swift; sourceTree = "<group>"; };
+		63FA587E125D89A44E96573081BD19E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		79A3BB3FE22FEE73277BDA15FF82BC99 /* MediaKeyTap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MediaKeyTap-umbrella.h"; sourceTree = "<group>"; };
+		79E26AB40BFDEBEDAAB644A8CFBB04A5 /* MediaKeyTap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MediaKeyTap.modulemap; sourceTree = "<group>"; };
+		8173B68E721B799FE0A0207C74A3953D /* Pods-iMac PWM Control-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iMac PWM Control-umbrella.h"; sourceTree = "<group>"; };
+		83551407DF0C9A8956E86F90F5B3B620 /* Pods-iMac PWM Control.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iMac PWM Control.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A10ADC22F1BB26F85240137F1CC6EE3E /* MediaKeyTap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MediaKeyTap-prefix.pch"; sourceTree = "<group>"; };
+		A249A92C052E8C9A8282437ED784B1ED /* Pods-iMac PWM Control-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iMac PWM Control-dummy.m"; sourceTree = "<group>"; };
+		D0D6174175A4CC430A681A20A36A24E5 /* Pods_iMac_PWM_Control.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iMac_PWM_Control.framework; path = "Pods-iMac PWM Control.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C0C448A44C5D5321F9EC3A300E0CBD /* MediaKeyTap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MediaKeyTap-dummy.m"; sourceTree = "<group>"; };
+		E0A7131E01C662E445DB7D54A2AAA074 /* NSEventExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSEventExtensions.swift; path = MediaKeyTap/NSEventExtensions.swift; sourceTree = "<group>"; };
+		EC6858FE7DF662303F333E88F161E19D /* Pods-iMac PWM Control-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iMac PWM Control-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEDCD96A923250142A905EB935EC097A /* MediaKeyTap-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MediaKeyTap-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C008C9C9F7641C4B99DB22C53A8A281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4573F04F11634093A20D713C8686119 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959215751F9CE67F2597F78FD428B769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3009F486BA71E6FAB21E0970C669FAB9 /* Cocoa.framework in Frameworks */,
+				6DB605F846B3280198177CFEE2E26C19 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25245F38C3F5904AAB1BFD4E0F25BF16 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E26AB40BFDEBEDAAB644A8CFBB04A5 /* MediaKeyTap.modulemap */,
+				50609D004C1743739FE4188DE5E863F3 /* MediaKeyTap.xcconfig */,
+				D9C0C448A44C5D5321F9EC3A300E0CBD /* MediaKeyTap-dummy.m */,
+				EEDCD96A923250142A905EB935EC097A /* MediaKeyTap-Info.plist */,
+				A10ADC22F1BB26F85240137F1CC6EE3E /* MediaKeyTap-prefix.pch */,
+				79A3BB3FE22FEE73277BDA15FF82BC99 /* MediaKeyTap-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MediaKeyTap";
+			sourceTree = "<group>";
+		};
+		3C08558685C9F6D01C6234864A95F5E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1226701C47BCC1B8C028175D61F765DD /* MediaKeyTap.framework */,
+				D0D6174175A4CC430A681A20A36A24E5 /* Pods_iMac_PWM_Control.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89624E015B147C713AF85A98451DBF3D /* Pods-iMac PWM Control */ = {
+			isa = PBXGroup;
+			children = (
+				3BE078FEE7781A1DCE8B58DD07E8C9FC /* Pods-iMac PWM Control.modulemap */,
+				1EA6838BF1ABB6CEF41F27CD303D2328 /* Pods-iMac PWM Control-acknowledgements.markdown */,
+				EC6858FE7DF662303F333E88F161E19D /* Pods-iMac PWM Control-acknowledgements.plist */,
+				A249A92C052E8C9A8282437ED784B1ED /* Pods-iMac PWM Control-dummy.m */,
+				5369F0E32B7C1EA8AFBAFA82B1607468 /* Pods-iMac PWM Control-frameworks.sh */,
+				5B8D82B9038B453BCBE1AB70B1402D14 /* Pods-iMac PWM Control-Info.plist */,
+				8173B68E721B799FE0A0207C74A3953D /* Pods-iMac PWM Control-umbrella.h */,
+				1D009864B9D089CE5C12B4AB6053373F /* Pods-iMac PWM Control.debug.xcconfig */,
+				83551407DF0C9A8956E86F90F5B3B620 /* Pods-iMac PWM Control.release.xcconfig */,
+			);
+			name = "Pods-iMac PWM Control";
+			path = "Target Support Files/Pods-iMac PWM Control";
+			sourceTree = "<group>";
+		};
+		8DA2F6A6F032C9C49511A2B61B7893DF /* MediaKeyTap */ = {
+			isa = PBXGroup;
+			children = (
+				17D34711BF95CF741FCDDAF72EC06D93 /* Extensions.swift */,
+				6193D9FD13362498AC0BFADE2FB1F368 /* MediaApplicationWatcher.swift */,
+				0C5087F8C67ABA1F28FEEF809FDB590B /* MediaKeyTap.swift */,
+				2AA5B413EA53B8C1199933E3502ACC53 /* MediaKeyTapInternals.swift */,
+				E0A7131E01C662E445DB7D54A2AAA074 /* NSEventExtensions.swift */,
+				25245F38C3F5904AAB1BFD4E0F25BF16 /* Support Files */,
+			);
+			name = MediaKeyTap;
+			path = MediaKeyTap;
+			sourceTree = "<group>";
+		};
+		A16388AC60B7F9BEBE515A28ABB848FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DA2F6A6F032C9C49511A2B61B7893DF /* MediaKeyTap */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C080C886C9E2F80D52E3E86A62E5B711 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6645F991F972114D01B633ACC0EF44A /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C080C886C9E2F80D52E3E86A62E5B711 /* Frameworks */,
+				A16388AC60B7F9BEBE515A28ABB848FD /* Pods */,
+				3C08558685C9F6D01C6234864A95F5E3 /* Products */,
+				F706DB14569E671A64A6277E1ACC2CDE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D6645F991F972114D01B633ACC0EF44A /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				4BA53ABD68332B23FE95DA70FF27B5C1 /* Cocoa.framework */,
+				63FA587E125D89A44E96573081BD19E5 /* CoreGraphics.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		F706DB14569E671A64A6277E1ACC2CDE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89624E015B147C713AF85A98451DBF3D /* Pods-iMac PWM Control */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24C59E083604F5A34A147F0ADFA5518B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE242DCEF88DB9FDA959A6F98A6F5832 /* Pods-iMac PWM Control-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2CE99D63B453B4E982F27376611A4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3DA109302B9B85320E7B48A560CFF4 /* MediaKeyTap-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		642113247AD36D69E9FC3DFFCCA2BAAF /* Pods-iMac PWM Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356027722D88BBAFB353B8F43EF6AE45 /* Build configuration list for PBXNativeTarget "Pods-iMac PWM Control" */;
+			buildPhases = (
+				24C59E083604F5A34A147F0ADFA5518B /* Headers */,
+				B31F3135E28E9E91A89A9A4F3F17AA31 /* Sources */,
+				8C008C9C9F7641C4B99DB22C53A8A281 /* Frameworks */,
+				1946EE56FD54A73828FCCBF89B7849D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030EADB827FF86A0A38E612339E158E2 /* PBXTargetDependency */,
+			);
+			name = "Pods-iMac PWM Control";
+			productName = "Pods-iMac PWM Control";
+			productReference = D0D6174175A4CC430A681A20A36A24E5 /* Pods_iMac_PWM_Control.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F681C818218C8521A461769EA284D3EF /* MediaKeyTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34DA7A4ECF1A8CFC593A0C55F7851258 /* Build configuration list for PBXNativeTarget "MediaKeyTap" */;
+			buildPhases = (
+				DE2CE99D63B453B4E982F27376611A4B /* Headers */,
+				8E0C7596FB383CBD4CE2C3AEBD065625 /* Sources */,
+				959215751F9CE67F2597F78FD428B769 /* Frameworks */,
+				06B2354047967BC4911221F0826933D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaKeyTap;
+			productName = MediaKeyTap;
+			productReference = 1226701C47BCC1B8C028175D61F765DD /* MediaKeyTap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3C08558685C9F6D01C6234864A95F5E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F681C818218C8521A461769EA284D3EF /* MediaKeyTap */,
+				642113247AD36D69E9FC3DFFCCA2BAAF /* Pods-iMac PWM Control */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06B2354047967BC4911221F0826933D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1946EE56FD54A73828FCCBF89B7849D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E0C7596FB383CBD4CE2C3AEBD065625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ACBB304B4AFA8DB6F98F231D43951D8 /* Extensions.swift in Sources */,
+				C6143E1814C23147600AF7FDD761ED38 /* MediaApplicationWatcher.swift in Sources */,
+				458599ED2F0D4D3369717F91645CD2FC /* MediaKeyTap-dummy.m in Sources */,
+				630CC1DA9C9D2C598876B5653DC65DCE /* MediaKeyTap.swift in Sources */,
+				3673744732175BCB36A0CA905CBFF44C /* MediaKeyTapInternals.swift in Sources */,
+				58341A1124B0B8A90C9084E364EF0593 /* NSEventExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31F3135E28E9E91A89A9A4F3F17AA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC0E16BEA2843B0F2EBE17BC09DD871 /* Pods-iMac PWM Control-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		030EADB827FF86A0A38E612339E158E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MediaKeyTap;
+			target = F681C818218C8521A461769EA284D3EF /* MediaKeyTap */;
+			targetProxy = 541DAF76A366DE3648E52879323B6154 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67F75E50E4988CA24DCCFDE3D1B3EDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50609D004C1743739FE4188DE5E863F3 /* MediaKeyTap.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/MediaKeyTap/MediaKeyTap-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MediaKeyTap/MediaKeyTap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/MediaKeyTap/MediaKeyTap.modulemap";
+				PRODUCT_MODULE_NAME = MediaKeyTap;
+				PRODUCT_NAME = MediaKeyTap;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83F3C801185BA841E0DD7DB4DEF6861C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83551407DF0C9A8956E86F90F5B3B620 /* Pods-iMac PWM Control.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-iMac PWM Control/Pods-iMac PWM Control-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-iMac PWM Control/Pods-iMac PWM Control.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9382317ED75CFC741F429FC224405042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		93AE8D6CAA47BBE58E1F5E5FE0379E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50609D004C1743739FE4188DE5E863F3 /* MediaKeyTap.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/MediaKeyTap/MediaKeyTap-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MediaKeyTap/MediaKeyTap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/MediaKeyTap/MediaKeyTap.modulemap";
+				PRODUCT_MODULE_NAME = MediaKeyTap;
+				PRODUCT_NAME = MediaKeyTap;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1C625A7B1719E3CE788BD52B895F1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D009864B9D089CE5C12B4AB6053373F /* Pods-iMac PWM Control.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-iMac PWM Control/Pods-iMac PWM Control-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-iMac PWM Control/Pods-iMac PWM Control.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4DEAC9B52796426D2A37E7074A1738D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34DA7A4ECF1A8CFC593A0C55F7851258 /* Build configuration list for PBXNativeTarget "MediaKeyTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F75E50E4988CA24DCCFDE3D1B3EDE2 /* Debug */,
+				93AE8D6CAA47BBE58E1F5E5FE0379E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		356027722D88BBAFB353B8F43EF6AE45 /* Build configuration list for PBXNativeTarget "Pods-iMac PWM Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C625A7B1719E3CE788BD52B895F1CF /* Debug */,
+				83F3C801185BA841E0DD7DB4DEF6861C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9382317ED75CFC741F429FC224405042 /* Debug */,
+				E4DEAC9B52796426D2A37E7074A1738D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
