@@ -64,8 +64,13 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSTextFiel
         RaspberryPiAddressField.stringValue = settings.string(forKey: "raspberry_address") ?? ""
         
         //let defaults = UserDefaults.standard
-        let currentVal = settings.string(forKey: "brightness")
-        BrightnessSlider.stringValue = (currentVal ?? "").isEmpty ? "50" : currentVal!
+        let currentVal = settings.string(forKey: "brightness") ?? ""
+        BrightnessSlider.stringValue = currentVal.isEmpty ? "50" : currentVal
+        
+        //Trigger change if saved value found
+        if(!currentVal.isEmpty) {
+            updatePwmValue(value: BrightnessSlider.floatValue)
+        }
         
         //Media keys listener
         self.startMediaKeyOnAccessibiltiyApiChange()
@@ -124,6 +129,8 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSTextFiel
     func set_gamma(value: Float) {
         if(value>0.1) {
             CGSetDisplayTransferByTable(CGMainDisplayID(), 2, [0, value], [0, value], [0, value])
+        } else {
+            CGSetDisplayTransferByTable(CGMainDisplayID(), 2, [0, 0.1], [0, 0.1], [0, 0.1])
         }
     }
     
