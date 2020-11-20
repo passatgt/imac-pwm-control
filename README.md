@@ -1,5 +1,10 @@
 # iMac PWM Control
 
+## Update
+Since i created this app, clever people over at Macrumors Forums were able to create roms for cards like the 780M to support brightness control natively, so you should use that solution instead. More info here: https://forums.macrumors.com/threads/2011-imac-graphics-card-upgrade.1596614/
+
+However, this method of screen dimming could be still useful if you are running on an external screen for example, or you just want a desktop app to control a raspberry pi's PWM value for some other reason :) 
+
 ## Background
 This small toolbar app was originally created to fix brightness control issues on 2010 and 2011 iMacs with replaced MXM graphics card(like 765M, 770M and 780M). With these cards, your iMac's screen always runs and max brightness(backlight). With this app, you can simulate the backlight change by changing the screen's gamma values, so every content on the screen will get darker as you decrease brightness. This still runs your backlight at max though. The second option is to use Node-RED on a Raspberry PI with the following blueprint:
 
